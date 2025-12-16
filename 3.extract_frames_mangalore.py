@@ -1,6 +1,7 @@
 import cv2
 import os
 
+#script to extract the frames
 def extract_custom_frames(video_path, output_folder):
     video_name = os.path.splitext(os.path.basename(video_path))[0]
     video_output_folder = output_folder + "/" + video_name + "_"
